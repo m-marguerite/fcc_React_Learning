@@ -1,0 +1,63 @@
+/* Appliquer une belle police moderne */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container principal */
+.container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 320px;
+}
+
+/* Titre */
+#otp-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Affichage du code OTP */
+#otp-display {
+  font-size: 2rem;
+  color: #007bff;
+  margin: 0.5rem 0;
+  letter-spacing: 4px;
+}
+
+/* Timer */
+#otp-timer {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Bouton "Generate OTP" */
+#generate-otp-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#generate-otp-button:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+#generate-otp-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
